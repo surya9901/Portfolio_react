@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&display=swap");
+
+.skillcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 200px 0;
+}
+
+.skillcontainer__text {
+  color: white;
+  flex: 0.6;
+  text-align: left;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.skillcontainer__text > h2 {
+  font-size: 30px;
+}
+
+.skillcontainer__image {
+  flex: 0.4;
+  text-align: center;
+  margin-right: 100px;
+}
+
+.skillcontainer__image > img {
+  width: 500px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.skillcontainer__skillset > h5 {
+  font-family: "barlow", sans-serif;
+  font-weight: 300;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.skillcontainer__slider > .MuiLinearProgress-root {
+  background-color: grey;
+}
+
+.skillcontainer__slider1 > div > .MuiLinearProgress-bar {
+  background-color: indianred;
+}
+
+.skillcontainer__slider2 > div > .MuiLinearProgress-bar {
+  background-color: red;
+}
+.skillcontainer__slider3 > div > .MuiLinearProgress-bar {
+  background-color: orange;
+}
+.skillcontainer__slider4 > div > .MuiLinearProgress-bar {
+  background-color: goldenrod;
+}
+.skillcontainer__slider5 > div > .MuiLinearProgress-bar {
+  background-color: indigo;
+}

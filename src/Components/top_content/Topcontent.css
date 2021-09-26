@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&display=swap");
+
+.topcontent {
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.topcontent__container {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  padding: 10px;
+}
+
+.topcontent__container > p {
+  letter-spacing: 1px;
+  text-align: left;
+  padding-left: 3px;
+  padding-top: 20px;
+  font-family: "Barlow", sans-serif;
+}
+
+.topcontent__container > a > button {
+  margin-bottom: 13px;
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 3px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.topcontent__container > h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Barlow", sans-serif;
+}
+
+.topcontent__downloadbutton {
+  color: white;
+  background-color: goldenrod;
+  border: 1px solid white !important;
+  font-size: 14px;
+  padding: 10px 10px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.topcontent__downloadbutton:hover {
+  color: goldenrod;
+  background-color: white;
+  font-weight: 600px;
+  border: 1px solid goldenrod;
+}
